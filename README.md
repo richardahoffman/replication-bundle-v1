@@ -6,6 +6,18 @@ Author: Richard A. Hoffman
 Paper (conceptual framework): Institutional inversion: Mechanisms of mission betrayal and systemic survival.
 Data bundle DOI: https://doi.org/10.5281/zenodo.17205083
 
+**Download & verify (v1.0)**  
+Zip: `replication_bundle_v1.0.zip` (see the [v1.0 release](../../releases/tag/v1.0))
+SHA-256: `5CF461C3D37A98C0B9E8D020B03D0B67F7E3FBCC3F5196EA57B4C0C0FCE8D39`
+
+Verify locally:
+
+- Windows (PowerShell): `(Get-FileHash .\replication_bundle_v1.0.zip -Algorithm SHA256).Hash`
+- macOS: `shasum -a 256 replication_bundle_v1.0.zip`
+- Linux: `sha256sum replication_bundle_v1.0.zip`
+
+Reference checksum: see [`checksums/replication_bundle_v1.0.SHA256.txt`](checksums/replication_bundle_v1.0.SHA256.txt)
+
 What’s here
 
 This archive contains the structured data and documentation used to generate Table 1 and Appendices B–E for the case study.
