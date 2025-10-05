@@ -1,0 +1,8 @@
+column_name,description,type,required,pattern,allowed_values,unique,example,notes
+indicator,Short name of the indicator/series,string,yes,,,no,Real median wages,
+definition,What the indicator measures,string,yes,,,no,Median earnings for full-time workers,
+unit,Unit of measure,string,yes,,,no,USD (2023),"%, index, USD, count, etc."
+source_id,Key to provenance table,string,yes,,,no,BLS-CPS-MedianWage,Cross-checked if provenance exists
+frequency,Nominal update interval,enum,yes,,annual|quarterly|monthly|weekly|daily|ad hoc,no,annual,Validator enforces enumeration
+notes,Coverage/caveats/transformations,string,yes,,,no,CPI-U deflated to 2023,Allow empty if none
+indicator_id,Stable indicator identifier,string,no,^C-\d{3}$,,yes,C-012,"If used, must match regex and be unique"

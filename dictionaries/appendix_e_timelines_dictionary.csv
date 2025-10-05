@@ -1,0 +1,7 @@
+column_name,description,type,required,pattern,allowed_values,unique,example,notes
+domain,Domain/subcase label,string,yes,,,no,Justice,
+date,Event date (ISO),date,yes,^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$,,no,2021-11-05,YYYY or YYYY-MM or YYYY-MM-DD
+event,Concise event description,string,yes,,,no,Agency issues interim final rule,
+source_id,Key to provenance table,string,yes,,,no,FR-2021-12345,Cross-checked if provenance exists
+date_precision,Precision of the date,enum,no,,day|month|year,no,day,Optional but recommended
+event_id,Stable event identifier,string,no,^E-\d{3}$,,yes,E-034,"If used, must match regex and be unique"

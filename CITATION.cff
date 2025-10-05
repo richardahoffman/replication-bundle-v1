@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this replication bundle, please cite it and the paper."
+title: "Replication materials for ‘Institutional inversion: Case study—Government (US)’"
+doi: 10.5281/zenodo.17205083
+version: "v1.0"
+date-released: 2025-10-03
+type: dataset
+authors:
+  - family-names: Hoffman
+    given-names: Richard A.
+    # orcid: https://orcid.org/0009-0007-2209-8570  # optional
+
+# Dataset links
+url: https://doi.org/10.5281/zenodo.17205083
+repository-artifact: https://zenodo.org/records/17205083
+
+preferred-citation:
+  type: dataset
+  title: "Replication materials for ‘Institutional inversion: Case study—Government (US)’"
+  doi: 10.5281/zenodo.17205083
+  version: "v1.0"
+  date-released: 2025-10-03
+  authors:
+    - family-names: Hoffman
+      given-names: Richard A.

@@ -1,0 +1,7 @@
+﻿column_name,description,type,required,pattern,allowed_values,unique,example,notes
+section,Domain/section bucket used in the paper,string,yes,,,no,Education,Keep concise and stable across files
+promise,Stated commitment/goal (quoted or paraphrased),string,yes,,,no,Reduce student debt,One promise per row
+administration,Administration or time span,string,yes,,,no,2021–2025,"Can be a name (e.g., 'Biden') or range"
+reality,Observed outcome/contradiction,string,yes,,,no,Debt relief paused by court order,Neutral tone; 1–2 sentences
+sources,Primary citations (semicolon-separated),string,yes,,,no,GAO-2023-123; CRS-IF12000,Prefer primary sources
+t1_id,Stable row ID for cross-refs,string,no,^T1-\d{3}$,,yes,T1-001,"If used, must match regex and be unique"

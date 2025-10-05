@@ -1,0 +1,4 @@
+column_name,description,type,required,pattern,allowed_values,unique,example,notes
+term,Abbreviation/acronym,string,yes,,,yes,GAO,
+expansion,Full expansion,string,yes,,,no,Government Accountability Office,
+scope,Category tag for context,string,yes,,Law|Agency|Oversight|Index/Metric|NGO|Think Tank/NGO|Intl. Org|Non-state actor|Policy|Program|Law/Authority|Company|Court|General|Tech|Admin/NEPA,no,Agency,Validator will warn on unusual values

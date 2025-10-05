@@ -1,0 +1,31 @@
+{
+  "title": "Replication materials for \u201cInstitutional Inversion: Case Study\u2014Government (US)\u201d (v1.0)",
+  "upload_type": "dataset",
+  "description": "This archive reproduces Table 1 and Appendices B\u2013E for the paper 'Institutional Inversion: Case Study\u2014Government (US)'. It contains data, code, and provenance sufficient to regenerate the shipped outputs. See README for details.",
+  "creators": [
+    {
+      "name": "Hoffman, Richard A.",
+      "orcid": ""
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "institutional inversion",
+    "elite capture",
+    "regulatory capture",
+    "process tracing",
+    "pattern matching",
+    "open data",
+    "replication",
+    "democratic accountability",
+    "media\u2013government interface"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://doi.org/10.5281/zenodo.17205004",
+      "resource_type": "publication-article"
+    }
+  ],
+  "version": "v1.0"
+}

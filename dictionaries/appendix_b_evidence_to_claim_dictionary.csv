@@ -1,0 +1,8 @@
+column_name,description,type,required,pattern,allowed_values,unique,example,notes
+domain,Domain/subcase label,string,yes,,,no,Health/Medicine,
+claim_id,Stable claim identifier,string,yes,^B-\d{3}$,,yes,B-001,Unique and stable
+claim_text,One-sentence statement of the claim being tested,string,yes,,,no,Opioid marketing increased prescription volume,
+test_type,Inference test type,enum,yes,,straw_in_the_wind|hoop|smoking_gun|doubly_decisive,no,smoking_gun,Validator enforces enumeration
+method,Approach/design/comparison used,string,yes,,,no,Interrupted time-series on state policy shocks,
+sources,Citations for the evidence (semicolon-separated),string,yes,,,no,CDC-MMWR-2022; DOJ-Purdue-Settlement,
+notes,Freeform qualifiers/remarks,string,yes,,,no,Robust to alternative windows,Allow empty if none
