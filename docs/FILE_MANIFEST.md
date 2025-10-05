@@ -1,6 +1,6 @@
 # File manifest
 
-_Generated: 2025-10-05 10:35 UTC_
+_Generated: 2025-10-05 10:50 UTC_
 
 | Path | Kind | Size | Rows | Cols | Title | SHA256 (8) |
 |------|------|------:|-----:|-----:|-------|------------|
@@ -22,7 +22,7 @@ _Generated: 2025-10-05 10:35 UTC_
 | docs/CHANGELOG.md | doc | 376 B |  |  | CHANGELOG | `33b89dd5` |
 | metadata/zenodo.json | metadata | 981 B |  |  | Zenodo metadata (deposit JSON) | `147513cb` |
 | provenance/sources.csv | provenance | 78 B | 1 | 9 | Provenance sources | `0c05fc1c` |
-| checksums/SHA256SUMS | checksums | 2.2 KB |  |  | SHA256 checksums | `111042d1` |
+| checksums/SHA256SUMS | checksums | 2.2 KB |  |  | SHA256 checksums | `429fc396` |
 | code/run_all.py | code | 12.5 KB |  |  | Validator & utilities (CSV-first) | `409783ad` |
 | code/environment.yml | code | 139 B |  |  | Conda environment (CSV-first) | `163dc3fb` |
 | code/requirements.txt | code | 40 B |  |  | Python requirements (pip) | `b8528d50` |
