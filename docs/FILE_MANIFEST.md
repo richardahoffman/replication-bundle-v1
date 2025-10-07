@@ -1,6 +1,6 @@
 # File manifest
 
-_Generated: 2025-10-05 10:50 UTC_
+_Generated: 2025-10-07 05:59 UTC_
 
 | Path | Kind | Size | Rows | Cols | Title | SHA256 (8) |
 |------|------|------:|-----:|-----:|-------|------------|
@@ -22,7 +22,7 @@ _Generated: 2025-10-05 10:50 UTC_
 | docs/CHANGELOG.md | doc | 376 B |  |  | CHANGELOG | `33b89dd5` |
 | metadata/zenodo.json | metadata | 981 B |  |  | Zenodo metadata (deposit JSON) | `147513cb` |
 | provenance/sources.csv | provenance | 78 B | 1 | 9 | Provenance sources | `0c05fc1c` |
-| checksums/SHA256SUMS | checksums | 2.2 KB |  |  | SHA256 checksums | `429fc396` |
+| checksums/SHA256SUMS | checksums | 2.3 KB |  |  | SHA256 checksums | `21e92747` |
 | code/run_all.py | code | 12.5 KB |  |  | Validator & utilities (CSV-first) | `409783ad` |
 | code/environment.yml | code | 139 B |  |  | Conda environment (CSV-first) | `163dc3fb` |
 | code/requirements.txt | code | 40 B |  |  | Python requirements (pip) | `b8528d50` |
@@ -30,12 +30,12 @@ _Generated: 2025-10-05 10:50 UTC_
 | code/summary.bat | code | 63 B |  |  | Summary (Windows helper) | `34b44148` |
 | code/validate.bat | code | 182 B |  |  | Validate (Windows helper) | `41a728ca` |
 | code/zip_and_hash.ps1 | code | 2.6 KB |  |  | Zip + checksums + manifest + validate | `30b45515` |
-| README.md | readme | 6.4 KB |  |  | README | `a00327bb` |
+| README.md | readme | 6.9 KB |  |  | README | `a142506a` |
 | CITATION.cff | citation | 801 B |  |  | Citation (CFF) | `45adad77` |
 | LICENSE | license | 225 B |  |  | Repository license | `c3a527e3` |
 | LICENSE_CODE.txt | license | 1.0 KB |  |  | LICENSE CODE | `6786e200` |
 | LICENSE_DATA.txt | license | 104 B |  |  | LICENSE DATA | `e0459d1c` |
 
-**Files:** 31 &nbsp;&nbsp; **Total size:** 68.9 KB
+**Files:** 31 &nbsp;&nbsp; **Total size:** 69.6 KB
 
 > Notes: Sizes/rows/cols are derived automatically. Human fields (title/description/keywords/author/license_override) are preserved from the CSV and can be edited there.
